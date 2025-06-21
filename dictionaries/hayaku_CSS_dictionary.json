@@ -49,7 +49,26 @@
     },{
         "name": "<timing-function>",
         "values": [ "ease", "linear", "ease-in", "ease-out", "ease-in-out", "cubic-bezier()" ]
-
+    },{
+        "name": "<grid-line>",
+        "values": ["auto", "<custom-ident>", "<integer>", "span <integer>", "span <custom-ident>"],
+        "_comment": "Grid line position (e.g., '1', 'span 2', 'sidebar')"
+    },{
+        "name": "<custom-ident>",
+        "values": ["<string>"],
+        "_comment": "User-defined identifier (e.g., grid area names)"
+    },{
+        "name": "<track-size>",
+        "values": ["<length>", "<percentage>", "min-content", "max-content", "auto", "fit-content(<length>)"],
+        "_comment": "Grid track sizing (e.g., grid-template-columns)"
+    },{
+        "name": "<track-list>",
+        "values": ["<track-size>", "repeat(<integer>, <track-size>)", "minmax(<track-size>, <track-size>)"],
+        "_comment": "Combined track definitions"
+    },{
+        "name": "<auto-track-list>",
+        "values": ["auto-fill", "auto-fit"],
+        "_comment": "Auto-repeating tracks"
     },{
         "name": "position",
         "values": [ "static", "relative", "absolute", "fixed", "sticky" ]
@@ -117,6 +136,72 @@
     },{
         "name": "align-content",
         "values": ["flex-start", "flex-end", "center", "space-between", "space-around", "space-evenly", "stretch", "safe", "unsafe"]
+    },{
+        "name": "grid-template-columns",
+        "values": [ "none", "<track-list>", "<auto-track-list>", "subgrid" ]
+    },{
+        "name": "grid-template-rows",
+        "values": [ "none", "<track-list>", "<auto-track-list>", "subgrid" ]
+    },{
+        "name": "grid-template-areas",
+        "values": [ "none", "<string>" ]
+    },{
+        "name": "grid-template",
+        "values": [ "none", "<grid-template-rows>", "<grid-template-columns>", "<grid-template-areas>" ]
+    },{
+        "name": "grid-auto-columns",
+        "values": [ "<track-size>" ]
+    },{
+        "name": "grid-auto-rows",
+        "values": [ "<track-size>" ]
+    },{
+        "name": "grid-auto-flow",
+        "values": [ "row", "column", "dense", "row dense", "column dense" ]
+    },{
+        "name": "grid",
+        "values": [ "none", "<grid-template>", "<grid-auto-flow>", "<grid-auto-rows>", "<grid-auto-columns>" ]
+    },{
+        "name": "grid-column-start",
+        "values": ["<grid-line>"]
+    },{
+        "name": "grid-column-end",
+        "values": ["<grid-line>"]
+    },{
+        "name": "grid-row-start",
+        "values": ["<grid-line>"]
+    },{
+        "name": "grid-row-end",
+        "values": ["<grid-line>"]
+    },{
+        "name": "grid-column",
+        "values": ["<grid-line>", "<grid-line> / <grid-line>"]
+    },{
+        "name": "grid-row",
+        "values": ["<grid-line>", "<grid-line> / <grid-line>"]
+    },{
+        "name": "grid-area",
+        "values": ["<grid-line>"]
+    },{
+        "name": "grid-column-gap",
+        "values": [ "<length>", "<percentage>" ]
+    },{
+        "name": "grid-row-gap",
+        "values": [ "<length>", "<percentage>" ]
+    },{
+        "name": "grid-gap",
+        "values": [ "<grid-row-gap>", "<grid-column-gap>" ]
+    },{
+        "name": "gap",
+        "values": [ "<length>", "<percentage>" ]
+    },{
+        "name": "masonry-auto-flow",
+        "values": [ "pack", "next" ]
+    },{
+        "name": "align-tracks",
+        "values": [ "start", "end", "center", "normal", "baseline", "first baseline", "last baseline", "space-between", "space-around", "space-evenly", "stretch" ]
+    },{
+        "name": "justify-tracks",
+        "values": [ "start", "end", "center", "normal", "space-between", "space-around", "space-evenly", "stretch" ]
     },{
       "name": "place-content",
       "values": ["<align-content>", "<justify-content>"]
