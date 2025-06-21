@@ -52,7 +52,7 @@
 
     },{
         "name": "position",
-        "values": [ "static", "relative", "absolute", "fixed" ]
+        "values": [ "static", "relative", "absolute", "fixed", "sticky" ]
     },{
         "name": [ "top", "right", "bottom", "left" ],
         "values": [ "auto", "<dimension>" ],
@@ -60,7 +60,6 @@
     },{
         "name": "z-index",
         "values": [ "auto", "<integer>" ]
-
     },{
         "name": "float",
         "values": [ "left", "right", "none" ]
@@ -75,7 +74,7 @@
         "values": [ "visible", "hidden", "collapse", "inherit" ]
     },{
         "name": "overflow",
-        "values": [ "visible", "hidden", "scroll", "auto" ]
+        "values": [ "visible", "hidden", "scroll", "auto", "clip" ]
     },{
         "name": [ "overflow-x", "overflow-y" ],
         "values": [ "<overflow>" ]
@@ -118,6 +117,9 @@
     },{
         "name": "align-content",
         "values": ["flex-start", "flex-end", "center", "space-between", "space-around", "space-evenly", "stretch", "safe", "unsafe"]
+    },{
+      "name": "place-content",
+      "values": ["<align-content>", "<justify-content>"]
     },{
         "name": "pointer-events",
         "values": [ "none", "all" ]
@@ -207,8 +209,7 @@
         "values": [ "repeat", "repeat-x", "repeat-y", "no-repeat", "space", "round" ]
     },{
         "name": [ "background-clip", "background-origin" ],
-        "values": [ "border-box", "padding-box", "content-box" ]
-
+        "values": [ "border-box", "padding-box", "content-box", "text" ]
     },{
         "name": "background-size",
         "values": [ "auto", "contain", "cover", "<dimension>" ]
@@ -220,12 +221,11 @@
         "values": [ "slice", "clone" ]
     },{
         "name": "box-shadow",
-        "values": [ "inset", "<length>", "<color>" ]
+        "values": [ "none", "inset <length> <length> <length> <color>" ]
     },{
         "name": "color",
-        "values": [ "<color_values>" ],
+        "values": [ "<color_values>", "hwb()", "lab()", "lch()" ],
         "default": "#FFF"
-
     },{
         "name": "table-layout",
         "values": [ "auto", "fixed" ]
@@ -257,7 +257,6 @@
     },{
         "name": [ "counter-increment", "counter-reset" ],
         "values": [ "none" ]
-
     },{
         "name": "vertical-align",
         "values": [ "baseline", "sub", "super", "top", "text-top", "middle", "bottom", "text-bottom", "<dimension>" ]
@@ -296,13 +295,13 @@
         "values": [ "capitalize", "uppercase", "lowercase", "none", "fullwidth" ]
     },{
         "name": "text-wrap",
-        "values": [ "none", "normal", "unrestricted", "avoid" ]
+        "values": [ "wrap", "nowrap", "balance" ]
     },{
         "name": "text-overflow",
         "values": [ "ellipsis", "clip" ]
     },{
         "name": "text-shadow",
-        "values": [ "<length>", "none" ]
+        "values": [ "none", "<length> <length> <length> <color>" ]
     },{
         "name": "line-height",
         "values": [ "normal", "<number>", "<dimension>" ],
@@ -324,7 +323,7 @@
         "values": [ "normal", "keep-all", "break-all" ]
     },{
         "name": "hyphens",
-        "values": [ "none", "manual", "auto" ]
+        "values": [ "none", "manual", "auto", "auto-none" ]
     },{
         "name": "letter-spacing",
         "values": [ "normal", "<length>" ]
@@ -499,7 +498,7 @@
         "values": [ "none", "<url>" ]
     },{
         "name": "user-select",
-        "values": [ "none", "text", "all" ]
+        "values": [ "auto", "none", "text", "all", "contain" ]
     }
 ],
 
@@ -542,6 +541,7 @@
     "ct":  "content:",
     "f":   "font:",
     "p":   "padding:",
+    "c":   "color:",
     "pr":  "padding-right:",
     "ai":  "align-items:",
     "tf": "transform:",
