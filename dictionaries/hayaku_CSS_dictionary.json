@@ -108,16 +108,16 @@
         "values": [ "none", "<flex-grow>", "<flex-shrink>", "<flex-basis>" ]
     },{
         "name": "justify-content",
-        "values": ["flex-start", "flex-end", "center", "space-between", "space-around" ]
+        "values": ["flex-start", "flex-end", "center", "space-between", "space-around", "space-evenly"]
     },{
         "name": "align-items",
-        "values": [ "flex-start", "flex-end", "center", "baseline", "stretch" ]
+        "values": [ "flex-start", "flex-end", "center", "baseline", "stretch", "safe", "unsafe" ]
     },{
         "name": "align-self",
         "values": [ "auto", "<align-items>" ]
     },{
         "name": "align-content",
-        "values": ["flex-start", "flex-end", "center", "space-between", "space-around", "stretch" ]
+        "values": ["flex-start", "flex-end", "center", "space-between", "space-around", "space-evenly", "stretch", "safe", "unsafe"]
     },{
         "name": "pointer-events",
         "values": [ "none", "all" ]
