@@ -45,13 +45,10 @@
         "values": [ "attr()" ]
     },{
         "name": "<image>",
-        "values": [ "linear-gradient()", "repeating-linear-gradient()", "radial-gradient()", "repeating-radial-gradient()" ],
-        "prefixes": [ "webkit", "moz", "ms", "o" ]
+        "values": [ "linear-gradient()", "repeating-linear-gradient()", "radial-gradient()", "repeating-radial-gradient()" ]
     },{
         "name": "<timing-function>",
         "values": [ "ease", "linear", "ease-in", "ease-out", "ease-in-out", "cubic-bezier()" ]
-
-
 
     },{
         "name": "position",
@@ -63,8 +60,6 @@
     },{
         "name": "z-index",
         "values": [ "auto", "<integer>" ]
-
-
 
     },{
         "name": "float",
@@ -83,69 +78,52 @@
         "values": [ "visible", "hidden", "scroll", "auto" ]
     },{
         "name": [ "overflow-x", "overflow-y" ],
-        "values": [ "<overflow>" ],
-        "prefixes": [ "ms" ]
+        "values": [ "<overflow>" ]
     },{
         "name": "clip",
         "values": [ "auto", "rect()" ]
     },{
         "name": "box-sizing",
-        "values": [ "content-box", "border-box" ],
-        "prefixes": [ "webkit", "moz" ]
-    },{
-        "name": "-moz-box-sizing",
-        "values": [ "<box-sizing>", "padding-box" ]
+        "values": [ "content-box", "border-box" ]
     },{
         "name": "flex-direction",
-        "values": [ "row", "row-reverse", "column", "column-reverse" ],
-        "prefixes": [ "webkit", "ms" ]
+        "values": [ "row", "row-reverse", "column", "column-reverse" ]
     },{
         "name": "flex-wrap",
-        "values": [ "nowrap", "wrap", "wrap-reverse" ],
-        "prefixes": [ "webkit", "ms" ]
+        "values": [ "nowrap", "wrap", "wrap-reverse" ]
     },{
         "name": "flex-flow",
-        "values": [ "<flex-direction>", "<flex-wrap>" ],
-        "prefixes": [ "webkit", "ms" ]
+        "values": [ "<flex-direction>", "<flex-wrap>" ]
     },{
         "name": "order",
-        "values": [ "<integer>" ],
-        "prefixes": [ "webkit", "ms" ]
+        "values": [ "<integer>" ]
     },{
         "name": ["flex-grow", "flex-shrink"],
-        "values": [ "<number>" ],
-        "prefixes": [ "webkit" ]
+        "values": [ "<number>" ]
     },{
         "name": "flex-basis",
-        "values": [ "<width>" ],
-        "prefixes": [ "webkit" ]
+        "values": [ "<width>" ]
     },{
         "name": "flex",
-        "values": [ "none", "<flex-grow>", "<flex-shrink>", "<flex-basis>" ],
-        "prefixes": [ "webkit", "ms" ]
+        "values": [ "none", "<flex-grow>", "<flex-shrink>", "<flex-basis>" ]
     },{
         "name": "justify-content",
-        "values": [ "flex-start", "flex-end", "center", "space-between", "space-around" ],
-        "prefixes": [ "webkit" ]
+        "values": ["flex-start", "flex-end", "center", "space-between", "space-around" ]
     },{
         "name": "align-items",
-        "values": [ "flex-start", "flex-end", "center", "baseline", "stretch" ],
-        "prefixes": [ "webkit" ]
+        "values": [ "flex-start", "flex-end", "center", "baseline", "stretch" ]
     },{
         "name": "align-self",
-        "values": [ "auto", "<align-items>" ],
-        "prefixes": [ "webkit" ]
+        "values": [ "auto", "<align-items>" ]
     },{
         "name": "align-content",
-        "values": [ "flex-start", "flex-end", "center", "space-between", "space-around", "stretch" ],
-        "prefixes": [ "webkit" ]
+        "values": ["flex-start", "flex-end", "center", "space-between", "space-around", "stretch" ]
     },{
         "name": "pointer-events",
         "values": [ "none", "all" ]
     },{
         "name": "appearance",
-        "values": [ "none" ],
-        "prefixes": [ "webkit", "moz" ]
+        "values": [ "none" ]
     },{
         "name": "-webkit-font-smoothing",
         "values": [ "antialiased", "subpixel-antialiased", "none" ]
@@ -167,8 +145,6 @@
         "values": [ "none", "<dimension>" ],
         "default": "100%",
         "always_positive": true
-
-
 
     },{
         "name": "outline-color",
@@ -207,32 +183,7 @@
         "default": "1px solid"
     },{
         "name": [ "border-radius", "border-top-right-radius", "border-top-left-radius", "border-bottom-left-radius", "border-bottom-right-radius" ],
-        "values": [ "<dimension>" ],
-        "prefixes": [ "webkit" ]
-    },{
-        "name": "<border-image-source>",
-        "values": [ "<url>", "none" ],
-        "prefixes": [ "webkit", "moz", "o" ]
-    },{
-        "name": "<border-image-slice>",
-        "values": [ "<number>", "<percentage>", "fill" ],
-        "prefixes": [ "webkit", "moz", "o" ]
-    },{
-        "name": "<border-image-width>",
-        "values": [ "<border-width>" ],
-        "prefixes": [ "webkit", "moz", "o" ]
-    },{
-        "name": "<border-image-outset>",
-        "values": [ "<length>", "<number>" ],
-        "prefixes": [ "webkit", "moz", "o" ]
-    },{
-        "name": "<border-image-repeat>",
-        "values": [ "stretch", "repeat", "round" ],
-        "prefixes": [ "webkit", "moz", "o" ]
-    },{
-        "name": "border-image",
-        "values": [ "<border-image-source>", "<border-image-slice>", "<border-image-width>", "<border-image-outset>", "<border-image-repeat>" ],
-        "prefixes": [ "webkit", "moz", "o" ]
+        "values": [ "<dimension>" ]
     },{
         "name": "background-attachment",
         "values": [ "scroll", "fixed", "local" ]
@@ -244,12 +195,10 @@
         "values": [ "<url>", "none", "<image>" ]
     },{
         "name": "background-position-x",
-        "values": [ "left", "center", "right", "<dimension>" ],
-        "prefixes": [ "ms" ]
+        "values": [ "left", "center", "right", "<dimension>" ]
     },{
         "name": "background-position-y",
-        "values": [ "top", "center", "bottom", "<dimension>" ],
-        "prefixes": [ "ms" ]
+        "values": [ "top", "center", "bottom", "<dimension>" ]
     },{
         "name": "background-position",
         "values": [ "<background-position-x>", "<background-position-y>" ]
@@ -258,12 +207,11 @@
         "values": [ "repeat", "repeat-x", "repeat-y", "no-repeat", "space", "round" ]
     },{
         "name": [ "background-clip", "background-origin" ],
-        "values": [ "border-box", "padding-box", "content-box" ],
-        "prefixes": [ "o" ]
+        "values": [ "border-box", "padding-box", "content-box" ]
+
     },{
         "name": "background-size",
-        "values": [ "auto", "contain", "cover", "<dimension>" ],
-        "prefixes": [ "webkit", "o" ]
+        "values": [ "auto", "contain", "cover", "<dimension>" ]
     },{
         "name": "background",
         "values": [ "none", "<_background-attachment>", "<background-color>", "<_background-position>", "<_background-repeat>", "<background-image>" ]
@@ -272,14 +220,11 @@
         "values": [ "slice", "clone" ]
     },{
         "name": "box-shadow",
-        "values": [ "inset", "<length>", "<color>" ],
-        "prefixes": [ "webkit" ]
+        "values": [ "inset", "<length>", "<color>" ]
     },{
         "name": "color",
         "values": [ "<color_values>" ],
         "default": "#FFF"
-
-
 
     },{
         "name": "table-layout",
@@ -313,8 +258,6 @@
         "name": [ "counter-increment", "counter-reset" ],
         "values": [ "none" ]
 
-
-
     },{
         "name": "vertical-align",
         "values": [ "baseline", "sub", "super", "top", "text-top", "middle", "bottom", "text-bottom", "<dimension>" ]
@@ -323,8 +266,7 @@
         "values": [ "left", "right", "center", "justify", "start", "end" ]
     },{
         "name": "text-align-last",
-        "values": [ "<text-align>", "auto" ],
-        "prefixes": [ "ms" ]
+        "values": [ "<text-align>", "auto" ]
     },{
         "name": "text-decoration",
         "values": [ "none", "underline", "overline", "line-through" ]
@@ -345,8 +287,7 @@
         "values": [ "<dimension>", "each-line", "hanging" ]
     },{
         "name": "text-justify",
-        "values": [ "auto", "inter-word", "inter-ideograph", "inter-cluster", "distribute", "distribute-all-lines", "distribute-center-last", "kashida", "newspaper", "tibetan" ],
-        "prefixes": [ "ms" ]
+        "values": [ "auto", "inter-word", "inter-ideograph", "inter-cluster", "distribute", "distribute-all-lines", "distribute-center-last", "kashida", "newspaper", "tibetan" ]
     },{
         "name": "text-outline",
         "values": [ "none" ]
@@ -358,8 +299,7 @@
         "values": [ "none", "normal", "unrestricted", "avoid" ]
     },{
         "name": "text-overflow",
-        "values": [ "ellipsis", "clip" ],
-        "prefixes": [ "ms" ]
+        "values": [ "ellipsis", "clip" ]
     },{
         "name": "text-shadow",
         "values": [ "<length>", "none" ]
@@ -375,19 +315,16 @@
         "values": [ "normal", "<length>" ]
     },{
         "name": "word-wrap",
-        "values": [ "normal", "break-word" ],
-        "prefixes": [ "ms" ]
+        "values": [ "normal", "break-word" ]
     },{
         "name": "overflow-wrap",
         "values": [ "normal", "break-word", "hyphenate" ]
     },{
         "name": "word-break",
-        "values": [ "normal", "keep-all", "break-all" ],
-        "prefixes": [ "ms" ]
+        "values": [ "normal", "keep-all", "break-all" ]
     },{
         "name": "hyphens",
-        "values": [ "none", "manual", "auto" ],
-        "prefixes": [ "webkit", "moz" ]
+        "values": [ "none", "manual", "auto" ]
     },{
         "name": "letter-spacing",
         "values": [ "normal", "<length>" ]
@@ -427,16 +364,10 @@
         "values": [ "<font_values>" ]
     },{
         "name": "tab-size",
-        "values": [ "<integer>" ],
-        "prefixes": [ "moz", "o" ]
+        "values": [ "<integer>" ]
     },{
         "name": "writing-mode",
-        "values": [ "lr-tb", "rl-tb", "tb-rl", "bt-rl", "tb-lr", "bt-lr", "lr-bt", "rl-bt", "lr", "rl", "tb" ],
-        "prefixes": [ "moz", "o" ],
-        "no_unprefixed_property": true
-
-
-
+        "values": [ "lr-tb", "rl-tb", "tb-rl", "bt-rl", "tb-lr", "bt-lr", "lr-bt", "rl-bt", "lr", "rl", "tb" ]
     },{
         "name": "opacity",
         "values": [ "<alphavalue>" ]
@@ -456,83 +387,62 @@
         "values": [ "auto" ]
     },{
         "name": [ "transition-delay", "transition-duration" ],
-        "values": [ "<time>" ],
-        "prefixes": [ "webkit", "moz", "ms", "o" ]
+        "values": [ "<time>" ]
     },{
         "name": "transition-property",
-        "values": [ "none", "all", "<properties>" ],
-        "prefixes": [ "webkit", "moz", "ms", "o" ]
+        "values": [ "none", "all", "<properties>" ]
     },{
         "name": "transition-timing-function",
-        "values": [ "<timing-function>" ],
-        "prefixes": [ "webkit", "moz", "ms", "o" ]
+        "values": [ "<timing-function>" ]
     },{
         "name": "transition",
-        "values": [ "<transition-property>", "<transition-duration>", "<transition-delay>", "<transition-timing-function>" ],
-        "prefixes": [ "webkit", "moz", "ms", "o" ]
+        "values": [ "<transition-property>", "<transition-duration>", "<transition-delay>", "<transition-timing-function>" ]
     },{
         "name": "transform",
-        "values": [ "none", "matrix()", "matrix3d()", "perspective()", "rotate()", "rotateX()", "rotateY()", "rotateZ()", "scale()", "scaleX()", "scaleY()", "scaleZ()", "skewX()", "skewY()", "translate()", "translateX()", "translateY()", "translateZ()", "translate3d()" ],
-        "prefixes": [ "webkit", "moz", "ms", "o" ]
+        "values": [ "none", "matrix()", "matrix3d()", "perspective()", "rotate()", "rotateX()", "rotateY()", "rotateZ()", "scale()", "scaleX()", "scaleY()", "scaleZ()", "skewX()", "skewY()", "translate()", "translateX()", "translateY()", "translateZ()", "translate3d()" ]
     },{
         "name": "transform-origin",
-        "values": [ "top", "center", "bottom", "left", "center", "right", "<percentage>", "<length>" ],
-        "prefixes": [ "webkit", "moz", "ms", "o" ]
+        "values": [ "top", "center", "bottom", "left", "center", "right", "<percentage>", "<length>" ]
     },{
         "name": "transform-style",
-        "values": [ "preserve-3d", "flat" ],
-        "prefixes": [ "webkit", "moz" ]
+        "values": [ "preserve-3d", "flat" ]
     },{
         "name": "perspective",
-        "values": [ "none", "<length>" ],
-        "prefixes": [ "webkit", "moz" ]
+        "values": [ "none", "<length>" ]
     },{
         "name": "perspective-origin",
-        "values": [ "<length>", "<percentage>", "left", "center", "right", "top", "bottom" ],
-        "prefixes": [ "webkit", "moz" ]
+        "values": [ "<length>", "<percentage>", "left", "center", "right", "top", "bottom" ]
     },{
         "name": "backface-visibility",
-        "values": [ "visible", "hidden" ],
-        "prefixes": [ "webkit", "moz" ]
+        "values": [ "visible", "hidden" ]
     },{
         "name": "animation-name",
-        "values": [ "none", "<properties>" ],
-        "prefixes": [ "webkit", "moz", "o" ]
+        "values": [ "none", "<properties>" ]
     },{
         "name": [ "animation-duration", "animation-delay" ],
-        "values": [ "<time>" ],
-        "prefixes": [ "webkit", "moz", "o" ]
+        "values": [ "<time>" ]
     },{
         "name": "animation-timing-function",
-        "values": [ "<timing-function>" ],
-        "prefixes": [ "webkit", "moz", "o" ]
+        "values": [ "<timing-function>" ]
     },{
         "name": "animation-iteration-count",
-        "values": [ "infinite", "<number>" ],
-        "prefixes": [ "webkit", "moz", "o" ]
+        "values": [ "infinite", "<number>" ]
     },{
         "name": "animation-direction",
-        "values": [ "normal", "alternate", "reverse", "alternate-reverse" ],
-        "prefixes": [ "webkit", "moz", "o" ]
+        "values": [ "normal", "alternate", "reverse", "alternate-reverse" ]
     },{
         "name": "animation",
-        "values": [ "<animation-name>", "<animation-duration>", "<animation-timing-function>", "<animation-delay>", "<animation-iteration-count>", "<animation-direction>" ],
-        "prefixes": [ "webkit", "moz", "o" ]
+        "values": [ "<animation-name>", "<animation-duration>", "<animation-timing-function>", "<animation-delay>", "<animation-iteration-count>", "<animation-direction>" ]
     },{
         "name": "animation-play-state",
-        "values": [ "running", "paused" ],
-        "prefixes": [ "webkit", "moz", "o" ]
+        "values": [ "running", "paused" ]
     },{
         "name": "animation-fill-mode",
-        "values": [ "none", "forwards", "backwards", "both" ],
-        "prefixes": [ "webkit", "moz", "o" ]
+        "values": [ "none", "forwards", "backwards", "both" ]
     },{
         "name": "filter",
         "_comment": "conflicts with font-style etc.",
         "_values": [ "none", "grayscale()", "sepia()", "saturate()", "hue-rotate()", "invert()", "opacity()", "brightness()", "contrast()", "blur()", "drop-shadow()", "custom()" ]
-
-
-
     },{
         "name": "unicode-bidi",
         "values": [ "normal", "embed", "bidi-override" ]
@@ -547,28 +457,22 @@
         "values": [ "<integer>", "auto" ]
     },{
         "name": "columns",
-        "values": [ "<columns-width>", "<columns-count>" ],
-        "prefixes": [ "webkit", "moz" ]
+        "values": [ "<columns-width>", "<columns-count>" ]
     },{
         "name": "column-gap",
-        "values": [ "<length>", "normal" ],
-        "prefixes": [ "webkit", "moz" ]
+        "values": [ "<length>", "normal" ]
     },{
         "name": "column-rule-color",
-        "values": [ "<color>" ],
-        "prefixes": [ "webkit", "moz" ]
+        "values": [ "<color>" ]
     },{
         "name": "column-rule-style",
-        "values": [ "<border-style>" ],
-        "prefixes": [ "webkit", "moz" ]
+        "values": [ "<border-style>" ]
     },{
         "name": "column-rule-width",
-        "values": [ "<border-width>" ],
-        "prefixes": [ "webkit", "moz" ]
+        "values": [ "<border-width>" ]
     },{
         "name": "column-rule",
-        "values": [ "<column-rule-width>", "<column-rule-style>", "<column-rule-color>" ],
-        "prefixes": [ "webkit", "moz" ]
+        "values": [ "<column-rule-width>", "<column-rule-style>", "<column-rule-color>" ]
     },{
         "name": [ "break-before", "break-after" ],
         "values": [ "auto", "always", "avoid", "left", "right", "page", "column", "avoid-page", "avoid-column" ]
@@ -587,24 +491,15 @@
     },{
         "name": "widows",
         "values": [ "<integer>" ]
-
-
-
     },{
         "name": "zoom",
         "values": [ "auto", "<integer>" ]
     },{
         "name": "behavior",
         "values": [ "none", "<url>" ]
-
-
-
     },{
         "name": "user-select",
-        "values": [ "none", "text", "all" ],
-        "prefixes": [ "webkit", "moz", "ms" ]
-
-
+        "values": [ "none", "text", "all" ]
     }
 ],
 
